@@ -1,4 +1,17 @@
-body{
+/* body{
   display: flex;
   height: 100vh;
+} */
+.score{
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.teamred{
+  background: linear-gradient(45deg, #ff0017, transparent);
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.teamblue{
+  background: linear-gradient(-45deg, #002fff, transparent);
+  font-family: 'Fuzzy Bubbles', cursive;
 }
