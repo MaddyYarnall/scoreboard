@@ -14,4 +14,14 @@ function teamTwo(){
 
 }
 
+function teamonedec(){
+  teamOnePoints--
+  document.getElementById("teamonepoints").innerText = teamOnePoints.toString()
+}
+
+function teamtwodec(){
+  teamTwoPoints--
+  document.getElementById("teamtwopoints").innerText = teamTwoPoints.toString()
+}
+
 
